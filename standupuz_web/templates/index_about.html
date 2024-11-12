@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="../static/site/css/style.css">
     <link rel="stylesheet" href="../static/site/css/media.css">
     <title>StandUp - О нас</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '9526859884007325');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=9526859884007325&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -41,7 +61,8 @@
                         <a href="tel:{{ phone }}">{{ phone }}</a>
                     </div>
                     <div class="header_right_contacts">
-                        <a href="https://instagram.com/standup.uz"><img src="../static/site/img/Instagram.svg" alt=""></a>
+                        <a href="https://instagram.com/standup.uz"><img src="../static/site/img/Instagram.svg"
+                                alt=""></a>
                         <a href="https://t.me/StandUp_UZB"><img src="../static/site/img/Telegram.svg" alt=""></a>
                     </div>
                 </div>
@@ -63,7 +84,7 @@
                 <p class="about-p">Присоединяйтесь к нам и наслаждайтесь стендапом и комедийными шоу различных форматов!</p> -->
             </div>
         </section>
-    
+
         <footer class="footer">
             <div class="conteiner">
                 <div class="footer_flex">
@@ -71,7 +92,8 @@
                         <a href="tel:{{ phone }}">{{ phone }}</a>
                     </div>
                     <div class="header_right_contacts">
-                        <a href="https://instagram.com/standup.uz"><img src="../static/site/img/Instagram.svg" alt=""></a>
+                        <a href="https://instagram.com/standup.uz"><img src="../static/site/img/Instagram.svg"
+                                alt=""></a>
                         <a href="https://t.me/StandUp_UZB"><img src="../static/site/img/Telegram.svg" alt=""></a>
                     </div>
                 </div>
@@ -79,7 +101,7 @@
         </footer>
 
     </div>
-    
+
 
     <script type="text/javascript" src="../static/site/js/materialize.min.js"></script>
     <script src="../static/site/js/demo_cards_standupuz.js"></script>
